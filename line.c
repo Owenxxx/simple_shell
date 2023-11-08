@@ -2,16 +2,17 @@
 
 char *line(void)
 {
-    char *line = NULL;
-    size_t len = 0;
-    ssize_t nread;
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t nread;
 
-    nread = getline(&line, &len, stdin);
-    if (nread == -1)
-    {
-        free(line);
-        return (NULL);
+	nread = getline(&line, &len, stdin);
+	if (nread == -1)
+	{
+	free(line);
+	return NULL;
     }
+	free(line);
 
     return (line);
 }
