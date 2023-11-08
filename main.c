@@ -12,7 +12,7 @@ int main(int ac, char **argv)
     l = NULL;
     sts = 0;
     
-    while (true)
+    while (0)
     {
         write(STDOUT_FILENO, "& ", 2);
 
