@@ -23,7 +23,7 @@ int main(int ac, char **argv)
         }
 
         printf("%s\n", l);
-	free(line);
     }
+    free(line);
     return (0);
 }
