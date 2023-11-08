@@ -17,9 +17,9 @@ int main(int ac, char **argv)
         write(STDOUT_FILENO, "& ", 2);
 
         l = line();
-        if (l == NULL);
+        if (l == NULL)
         {
-            return (sts);
+            return sts;
         }
 
         printf("%s\n", l);
