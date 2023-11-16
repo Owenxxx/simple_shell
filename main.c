@@ -2,9 +2,9 @@
 
 int main(int ac, char **argv)
 {
- 	char *l;
- 	/* char **cmd;*/
- 	int sts;
+	char *l;
+	/* char **cmd;*/
+int sts;
 
  	(void) ac;
  	(void) argv;
