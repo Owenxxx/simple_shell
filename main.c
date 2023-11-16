@@ -18,9 +18,9 @@ int main(int ac, char **argv)
 	l = NULL;
 	sts = 0;
 
-	while (0)
+	while (1)
 	{
-	write(STDOUT_FILENO, "& ", 2);
+	write(STDOUT_FILENO, "#cisfun$ ", 9);
 
 	l = line();
 	if (l == NULL)
@@ -28,8 +28,8 @@ int main(int ac, char **argv)
 	return (sts);
 	}
 
-	printf("%s\n", l);
+
 	}
-	free(line);
+	free(l);
 	return (0);
 }
