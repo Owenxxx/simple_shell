@@ -28,8 +28,7 @@ int main(int ac, char **argv)
 	return (sts);
 	}
 
-
-	}
 	free(l);
+	}
 	return (0);
 }
