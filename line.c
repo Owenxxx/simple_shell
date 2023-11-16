@@ -1,5 +1,8 @@
-#include "shell.h" 
-
+#include "shell.h"
+/**
+ * line - function to get new line
+ * Return: line
+ */
 char *line(void)
 {
 	char *line = NULL;
@@ -10,9 +13,9 @@ char *line(void)
 	if (nread == -1)
 	{
 	free(line);
-	return NULL;
-    }
+	return (NULL);
+	}
 	free(line);
 
-    return (line);
+	return (line);
 }
