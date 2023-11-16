@@ -20,7 +20,7 @@ int main(int ac, char **argv)
 
 	while (1)
 	{
-	write(STDOUT_FILENO, "#cisfun$ ", 9);
+	write(1, "#cisfun$ ", 9);
 
 	l = line();
 	if (l == NULL)
